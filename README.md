@@ -40,3 +40,4 @@ The Jenkins pipeline completed successfully, and the Build, Test, and Deploy sta
 - Integrated a GitHub repository with Jenkins.
 - Built and deployed a Dockerized web application.
 - Automated basic application testing.
+Automatic build trigger test
