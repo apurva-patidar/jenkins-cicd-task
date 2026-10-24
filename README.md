@@ -1,9 +1,9 @@
-# Jenkins CI/CD Internship Project
+# Jenkins CI/CD Pipeline with Docker
 
-## Objective
-Build a simple CI/CD pipeline using Jenkins and Docker.
+## Project Overview
+This project demonstrates a basic CI/CD pipeline using Jenkins, Git, GitHub, Docker, and Nginx.
 
-## Tools Used
+## Tools and Technologies
 - Ubuntu Linux
 - Jenkins
 - Git and GitHub
@@ -11,15 +11,15 @@ Build a simple CI/CD pipeline using Jenkins and Docker.
 - Nginx
 
 ## Project Structure
-- Dockerfile: Builds the application image.
-- Jenkinsfile: Defines Build, Test, and Deploy stages.
-- test.sh: Checks that the application HTML file exists and contains the expected text.
-- app/index.html: Sample web application.
+- `Dockerfile` - Builds the Docker image.
+- `Jenkinsfile` - Defines the Build, Test, and Deploy stages.
+- `test.sh` - Runs basic application checks.
+- `app/index.html` - Contains the sample web application.
 
 ## Pipeline Stages
-1. Build: Builds the Docker image.
-2. Test: Runs basic application checks.
-3. Deploy: Runs the application in a Docker container on port 8082.
+1. **Build:** Builds the Docker image `jenkins-cicd-app`.
+2. **Test:** Checks the HTML file and expected heading.
+3. **Deploy:** Runs the application container on port 8082.
 
 ## How to Run
 Build the image:
@@ -33,11 +33,11 @@ Run the application:
 Open http://localhost:8082 in your browser.
 
 ## Verification
-The Jenkins pipeline completed successfully, and the Build, Test, and Deploy stages passed.
+- Docker image built successfully.
+- Application checks passed.
+- Deployment completed successfully.
+- Jenkins pipeline finished with `SUCCESS`.
+- Automatic SCM polling was verified after a GitHub commit.
 
-## Learning Outcomes
-- Created a Jenkins declarative pipeline.
-- Integrated a GitHub repository with Jenkins.
-- Built and deployed a Dockerized web application.
-- Automated basic application testing.
-Automatic build trigger test
+## GitHub Repository
+https://github.com/apurva-patidar/jenkins-cicd-task
