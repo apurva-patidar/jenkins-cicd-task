@@ -57,7 +57,8 @@ Aspiring DevOps Engineer
 ## Screenshots
 
 ### Jenkins Pipeline
-![Jenkins Pipeline](jenkins pipeline project.docx)
+![Jenkins Pipeline](<img width="752" height="383" alt="jenkins pipeline" src="https://github.com/user-attachments/assets/b587af0e-8e1a-42c6-a02c-c80dbf6ed569" />
+)
 
 ### Build Console Output
-![Build Console Output](jenkins pipeline project stage 3.docx)
+![Build Console Output](<img width="752" height="359" alt="jenkins stage" src="https://github.com/user-attachments/assets/64db1ba5-f380-4715-9179-0f98a2ba1623" />)
