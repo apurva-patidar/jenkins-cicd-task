@@ -54,3 +54,10 @@ This project demonstrates a CI/CD workflow using Jenkins to automate application
 Apurva Patidar
 
 Aspiring DevOps Engineer
+## Screenshots
+
+### Jenkins Pipeline
+![Jenkins Pipeline](jenkins pipeline project.png)
+
+### Build Console Output
+![Build Console Output](jenkins pipeline project stage 3.png)
