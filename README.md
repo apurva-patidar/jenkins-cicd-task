@@ -1,43 +1,56 @@
-# Jenkins CI/CD Pipeline with Docker
 
-## Project Overview
-This project demonstrates a basic CI/CD pipeline using Jenkins, Git, GitHub, Docker, and Nginx.
+# Jenkins CI/CD Pipeline Project
 
-## Tools and Technologies
-- Ubuntu Linux
+## Overview
+This project demonstrates a CI/CD workflow using Jenkins to automate application build and deployment tasks.
+
+## Objectives
+- Understand Continuous Integration and Continuous Delivery.
+- Configure a Jenkins pipeline.
+- Automate application build steps.
+- Learn DevOps workflow and version control integration.
+
+## Technologies Used
 - Jenkins
 - Git and GitHub
-- Docker
-- Nginx
+- Docker (if configured in this project)
+- Linux / Shell scripting (if used)
 
-## Project Structure
-- `Dockerfile` - Builds the Docker image.
-- `Jenkinsfile` - Defines the Build, Test, and Deploy stages.
-- `test.sh` - Runs basic application checks.
-- `app/index.html` - Contains the sample web application.
+## Project Workflow
+1. Developer pushes code to the GitHub repository.
+2. Jenkins retrieves the source code.
+3. The pipeline runs the configured build and test steps.
+4. The application is deployed or packaged, if configured.
 
-## Pipeline Stages
-1. **Build:** Builds the Docker image `jenkins-cicd-app`.
-2. **Test:** Checks the HTML file and expected heading.
-3. **Deploy:** Runs the application container on port 8082.
+## Prerequisites
+- Jenkins installed and running.
+- Git installed.
+- Access to this repository.
+- Docker, only if required by the pipeline.
 
-## How to Run
-Build the image:
+## Setup and Execution
+1. Clone the repository:
 
-    docker build -t jenkins-cicd-app .
+   ```bash
+   git clone https://github.com/apurva-patidar/jenkins-cicd-task.git
+   ```
 
-Run the application:
+2. Open Jenkins in your browser.
+3. Create a Pipeline or Freestyle job according to your project configuration.
+4. Configure the GitHub repository URL.
+5. Select the correct build configuration or `Jenkinsfile`.
+6. Run the job and review the console output.
 
-    docker run -d --name jenkins-cicd-app-container -p 8082:80 jenkins-cicd-app
+## Key Learnings
+- CI/CD pipeline fundamentals.
+- GitHub repository integration with Jenkins.
+- Build automation and troubleshooting.
+- Reading Jenkins build logs.
 
-Open http://localhost:8082 in your browser.
+## Project Repository
+[View Source Code](https://github.com/apurva-patidar/jenkins-cicd-task)
 
-## Verification
-- Docker image built successfully.
-- Application checks passed.
-- Deployment completed successfully.
-- Jenkins pipeline finished with `SUCCESS`.
-- Automatic SCM polling was verified after a GitHub commit.
+## Author
+Apurva Patidar
 
-## GitHub Repository
-https://github.com/apurva-patidar/jenkins-cicd-task
+Aspiring DevOps Engineer
