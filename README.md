@@ -57,7 +57,7 @@ Aspiring DevOps Engineer
 ## Screenshots
 
 ### Jenkins Pipeline
-![Jenkins Pipeline](jenkins pipeline project.png)
+![Jenkins Pipeline](jenkins pipeline project.docx)
 
 ### Build Console Output
-![Build Console Output](jenkins pipeline project stage 3.png)
+![Build Console Output](jenkins pipeline project stage 3.docx)
